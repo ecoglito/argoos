@@ -1,23 +1,33 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from "./components/header/header.js";
+import Tabbar from "./components/tabbar/tabbar.js";
+import Transfer from "./components/transfer/transfer.js";
+import Vault from "./components/vault/vault.js";
+
+
+
+
+
 
 function App() {
+
+  let width = 200;
+  let height = 200;
+
+  
+ 
+
+  const [isTransferOpen, setIsTransferOpen] = React.useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      
+      <Transfer />
+      <Vault />
+      <Tabbar/>
     </div>
   );
 }

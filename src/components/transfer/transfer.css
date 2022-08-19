@@ -1,0 +1,35 @@
+.transfer-container {
+    width: 896px;
+    height: 506px;
+    
+}
+
+.transfer-header {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.15) 100%);
+    display: flex;
+    width: 100%;
+    height: 36px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(40px);
+    border-radius: 8px 8px 0 0;
+
+}
+
+.transfer-header h4 {
+    color: white;
+}
+
+.transfer-content {
+    margin-top: -16px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    
+}
+
+.exit-button {
+    padding-left: 16px;
+}

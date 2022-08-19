@@ -1,0 +1,40 @@
+.tabbar-container {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 15px;
+    width: 50%;
+    height: 103px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.15) 100%);
+    box-shadow: 0px 6px 24px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(40px);
+    border-radius: 24px;
+
+    border: 1px solid #e0e0e0;
+    
+}
+
+.tabbar-icon-container {
+    position: absolute;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    bottom: 15%;
+}
+
+.tabbar-icon-1:hover {
+    transform: translateY(-5%) scale(1.10);
+}
+
+.tabbar-icon-2:hover {
+    transform: translateY(-5%) scale(1.10);
+}
+
+.tabbar-icon-open {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
